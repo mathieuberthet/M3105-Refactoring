@@ -66,7 +66,7 @@ public abstract class Unit extends Entity {
 	/**
 	 * The attack range
 	 */
-	private int range;
+	private int attack_range;
 
 	/**
 	 * new unit
@@ -145,14 +145,14 @@ public abstract class Unit extends Entity {
 	 * @return
 	 */
 	public int getRange() {
-		return range;
+		return attack_range;
 	}
 	/**
 	 * sets the range of this unit
 	 * @param range
 	 */
 	public void setRange(int range) {
-		this.range = range;
+		this.attack_range = range;
 	}
 
 }
