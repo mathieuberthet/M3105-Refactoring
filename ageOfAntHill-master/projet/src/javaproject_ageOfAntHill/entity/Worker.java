@@ -12,29 +12,12 @@ import javaproject_ageOfAntHill.entity.buildable.Building;
 
 public class Worker extends Unit {
 	/**
-	 * A worker's default movement speed.
+	 * A worker's default informations about speed, armor, ...
 	 */
 	private final static int DEFAULT_WORKER_SPEED = 4;
-	/**
-	 * Just like a serial name, it's used to identify a worker's type.
-	 */
 	private final static String WORKER_TYPE = "WORK";
-	/**
-	 * Default armor
-	 */
-	//TODO
 	private static final int DEFAULT_LIGHT_UNIT_ARMOR = 0;
-
-	/**
-	 * Default damages.
-	 */
-	//TODO
 	private static final int DEFAULT_LIGHT_UNIT_DAMAGE = 0;
-
-	/**
-	 * Default health. 
-	 */
-	//TODO
 	private static final int DEFAULT_LIGHT_UNIT_HP = 0;
 
 	/**
