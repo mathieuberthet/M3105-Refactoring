@@ -29,7 +29,7 @@ public class Scout extends Unit {
 	 * Default health. 
 	 */
 	//TODO
-	private static final int DEFAULT_LIGHT_UNIT_HP = 0;
+	private static final int DEFAULT_LIGHT_UNIT_HP_START = 0;
 	/**
 	 * Just like a serial name, it's used to identify a scout's type.
 	 */
@@ -42,8 +42,8 @@ public class Scout extends Unit {
 		this.setRange(DEFAULT_UNIT_RANGE);
 		this.setArmor(DEFAULT_LIGHT_UNIT_ARMOR);
 		this.setDamages(DEFAULT_LIGHT_UNIT_DAMAGE);
-		this.setMaxHealthPoints(DEFAULT_LIGHT_UNIT_HP);
-		this.setHealthPoints(DEFAULT_LIGHT_UNIT_HP);
+		this.setMaxHealthPoints(DEFAULT_LIGHT_UNIT_HP_START);
+		this.setHealthPoints(DEFAULT_LIGHT_UNIT_HP_START);
 		this.setDeplacements(DEFAULT_SCOUT_SPEED);
 		this.setTeam(teamNumber);
 		this.setType(SCOUT_TYPE);
