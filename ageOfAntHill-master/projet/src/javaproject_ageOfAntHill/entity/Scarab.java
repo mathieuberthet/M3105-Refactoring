@@ -11,28 +11,12 @@ package javaproject_ageOfAntHill.entity;
 
 public class Scarab extends Unit {
 	/**
-	 * Scarab's default movement speed. 
+	 * Scarab's default informations about speed, armor, ...
 	 */
 	private final static int DEFAULT_BEETLE_SPEED = 2;
-	/**
-	 * Default armor
-	 */
-	//TODO
 	private static final int DEFAULT_HEAVY_UNIT_ARMOR = 0;
-	/**
-	 * Default damages.
-	 */
-	//TODO
 	private static final int DEFAULT_HEAVY_UNIT_DAMAGE = 0;
-
-	/**
-	 * Default health. 
-	 */
-	//TODO
 	private static final int DEFAULT_HEAVY_UNIT_HP_START = 0;
-	/**
-	 * Just like a serial name, it's used to identify a scarab's type.
-	 */
 	private final static String SCARAB_TYPE = "SCAR";
 
 	/**
