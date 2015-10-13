@@ -10,20 +10,11 @@ package javaproject_ageOfAntHill.entity;
  */
 public abstract class Entity {
 	/**
-	 * defined the healPoints of a unity
+	 * Entity's default informations
 	 */
 	private int healthPoints;
-	/**
-	 * defined the Maximum Health Points of a unity
-	 */
 	private int maxHealthPoints;
-	/**
-	 * defined the Team of an entity
-	 */
 	private int team;
-	/**
-	 * defines the Entity's type (Warrior, Fly, AntHill, ...)
-	 */
 	private String type;
 	
 	/**
