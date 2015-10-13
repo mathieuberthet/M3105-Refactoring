@@ -58,7 +58,7 @@ public class Shooter extends Unit {
 	 * Attacks the enemy if this is possible (if he's in range to attack) if
 	 * the enemy is hit, he will loose (shooter's damages - enemy's armor) health point.
 	 */
-	public void tirer() {
+	public void shoot() {
 
 	}
 
