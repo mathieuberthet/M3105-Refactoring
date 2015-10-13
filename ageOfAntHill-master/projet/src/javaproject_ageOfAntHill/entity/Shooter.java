@@ -13,7 +13,7 @@ public class Shooter extends Unit {
 	/**
 	 * Shooter's default movement speed.
 	 */
-	private final static int DEFAULT_SHOOTER_SPEED = 4;
+	private final static int DEFAULT_SHOOTER_MOVE_SPEED = 4;
 	/**
 	 * Shooter's default attack range.
 	 */
@@ -49,7 +49,7 @@ public class Shooter extends Unit {
 		this.setDamages(DEFAULT_LIGHT_UNIT_DAMAGE);
 		this.setMaxHealthPoints(DEFAULT_LIGHT_UNIT_HP);
 		this.setHealthPoints(DEFAULT_LIGHT_UNIT_HP);
-		this.setDeplacements(DEFAULT_SHOOTER_SPEED);
+		this.setDeplacements(DEFAULT_SHOOTER_MOVE_SPEED);
 		this.setTeam(teamNumber);
 		this.setType(SHOOTER_TYPE);
 	}
