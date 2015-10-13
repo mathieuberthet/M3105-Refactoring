@@ -11,22 +11,11 @@ package javaproject_ageOfAntHill.entity.buildable;
 public abstract class Building extends Buildable {
 
 	/**
-	 * defined the healPoints of a building
+	 * building's informations
 	 */
 	public static int healthPoints = 10;
-
-	/**
-	 * defined the Maximum Health Points of a building
-	 */
-	public static int maxHealthPoints = 10; // we need to think about this value
-
-	/**
-	 * defined the Team of a building
-	 */
+	public static int maxHealthPoints = 10;
 	protected int team;
-	/**
-	 * The buildable armor : It reduce the damages taken.
-	 */
 	public static int armor = 3;
 
 	/**
