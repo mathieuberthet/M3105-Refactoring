@@ -34,7 +34,7 @@ public class Shooter extends Unit {
 	 * Default health. 
 	 */
 	//TODO
-	private static final int DEFAULT_LIGHT_UNIT_HP = 0;
+	private static final int DEFAULT_LIGHT_UNIT_HP_START = 0;
 	/**
 	 * Just like a serial name, it's used to identify a shooter's type.
 	 */
@@ -47,8 +47,8 @@ public class Shooter extends Unit {
 		this.setRange(DEFAULT_SHOOTER_RANGE);
 		this.setArmor(DEFAULT_LIGHT_UNIT_ARMOR);
 		this.setDamages(DEFAULT_LIGHT_UNIT_DAMAGE);
-		this.setMaxHealthPoints(DEFAULT_LIGHT_UNIT_HP);
-		this.setHealthPoints(DEFAULT_LIGHT_UNIT_HP);
+		this.setMaxHealthPoints(DEFAULT_LIGHT_UNIT_HP_START);
+		this.setHealthPoints(DEFAULT_LIGHT_UNIT_HP_START);
 		this.setDeplacements(DEFAULT_SHOOTER_MOVE_SPEED);
 		this.setTeam(teamNumber);
 		this.setType(SHOOTER_TYPE);
