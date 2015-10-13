@@ -57,7 +57,7 @@ public abstract class Unit extends Entity {
 	/**
 	 * The damages amount that the unit can inflict.
 	 */
-	private int damages;
+	private int damages_inflict;
 	/**
 	 * The unit movement range
 	 */
@@ -103,14 +103,14 @@ public abstract class Unit extends Entity {
 	 * @return
 	 */
 	public int getDamages() {
-		return damages;
+		return damages_inflict;
 	}
 	/**
 	 * sets the attack damages of this unit
 	 * @param damages
 	 */
 	public void setDamages(int damages) {
-		this.damages = damages;
+		this.damages_inflict = damages;
 	}
 	/**
 	 * returns the armor of this unit
